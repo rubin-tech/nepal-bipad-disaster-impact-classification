@@ -1,0 +1,16 @@
+{
+  "current_extract_rows": 64131,
+  "current_extract_columns": 67,
+  "earlier_merge_check_rows": 64105,
+  "difference_rows": 26,
+  "interpretation": "Unresolved provenance/version discrepancy; no rows were removed to force a match.",
+  "incident_id_column": "id_incident",
+  "incident_id_duplicate_count": 0,
+  "loss_id_duplicate_count": 0,
+  "incident_date_min_utc": "2011-04-13 18:15:00+00:00",
+  "incident_date_max_utc": "2026-09-26 18:15:00+00:00",
+  "estimatedLoss_missing": 32300,
+  "estimatedLoss_zero": 866,
+  "estimatedLoss_positive": 30965,
+  "warning": "Do not interpret missing estimatedLoss as zero; verify currency/units from source documentation."
+}

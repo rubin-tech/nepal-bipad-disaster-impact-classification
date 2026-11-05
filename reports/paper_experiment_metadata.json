@@ -1,0 +1,35 @@
+{
+  "dataset_file": "data/raw/Nepal_Disaster_Data_2020_2026.csv",
+  "dataset_rows": 64131,
+  "dataset_columns": 67,
+  "labelled_rows": 64131,
+  "unlabelled_rows": 0,
+  "train_rows": 51304,
+  "test_rows": 12827,
+  "test_fraction": 0.2,
+  "random_state": 42,
+  "stratified": true,
+  "features": [
+    "hazard",
+    "verified",
+    "approved",
+    "source",
+    "dataSource",
+    "incident_year",
+    "incident_month",
+    "incident_day_of_year",
+    "longitude",
+    "latitude"
+  ],
+  "target": "recorded_impact_class (researcher-defined; not an official severity label)",
+  "class_counts": {
+    "Moderate": 47094,
+    "Low": 9935,
+    "High": 7102
+  },
+  "python_version": "3.13.5",
+  "pandas_version": "2.2.3",
+  "numpy_version": "2.3.5",
+  "scikit_learn_version": "1.8.0",
+  "runtime_seconds": 17.845
+}

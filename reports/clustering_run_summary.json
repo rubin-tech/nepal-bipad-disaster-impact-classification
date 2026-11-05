@@ -1,0 +1,24 @@
+{
+  "dataset_rows": 64131,
+  "source_columns": 67,
+  "clustering_features": [
+    "peopleDeathCount",
+    "peopleMissingCount",
+    "peopleInjuredCount",
+    "familyAffectedCount",
+    "infrastructureDestroyedCount",
+    "infrastructureAffectedHouseCount",
+    "estimatedLoss",
+    "estimatedLoss_reported"
+  ],
+  "fit_sample_n": 5000,
+  "evaluation_sample_n": 2500,
+  "selected_algorithm_by_silhouette": "HDBSCAN",
+  "selected_parameters": {
+    "min_cluster_size": 30,
+    "min_samples": 10
+  },
+  "hdbscan_assignment_scope": "fit sample only; -1 means noise or not fitted outside the sample",
+  "gmm_assignment_scope": "all rows; model fit on reproducible sample",
+  "random_seed": 42
+}
